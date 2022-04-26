@@ -13,7 +13,7 @@ import memegenerator from '../assets/png/memegenerator.png'
 export const projectsData = [
   {
     id: 1,
-    projectName: "Pepperfry - Clone",
+    projectName: "LinkedIn - Clone",
     projectDesc: [
       `Frontend focused collaborative project with end to end user experience of www.linkedin.com`,
       [

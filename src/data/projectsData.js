@@ -8,7 +8,7 @@
 // import eight from "../assets/svg/projects/eight.svg";
 // import udemy from "../assets/png/udemy2.jpeg";
 // import pepperfry from '../assets/png/pepperfryHomePage.png'
-import memegenerator from '../assets/png/memegenerator.png'
+// import memegenerator from '../assets/png/memegenerator.png'
 
 export const projectsData = [
   {
@@ -17,9 +17,11 @@ export const projectsData = [
     projectDesc: [
       `Frontend focused collaborative project with end to end user experience of www.linkedin.com`,
       [
-        "Product page with sort and filter features",
+        // "Product page with sort and filter features",
+        "Login and signup with authentication and authorization (Auth0) ",
         "Redux Integration",
-        "Cart and checkout page",
+        // "Cart and checkout page",
+        "Create post, like and comment to post"
       ],
     ],
     tags: ["React", "Redux", "MaterialUI"],
@@ -29,15 +31,15 @@ export const projectsData = [
   },
   {
     id: 2,
-    projectName: "Meme Generator App",
-    projectDesc: [
-      "A meme generator app where you can create your own memes with a text at top and bottom of the image.",
-      ["useState", "useEffect for fetching data", "React forms"],
+    projectName: "Sugar Cosmetics - Clone",
+    projectDesc: ["Sugar Cosmetics is a leading web app that sells Beauty Products Online.",
+      // "A meme generator app where you can create your own memes with a text at top and bottom of the image.",
+      ["Design home page and product page", "Implemet add to cart products ", "Design checkout page"],
     ],
-    tags: ["React"],
-    code: "https://github.com/aditishimple/meme_generator_react.git",
-    demo: "https://meme-generator-app-react.vercel.app/",
-    image: memegenerator
+    tags: ["JavaScript"],
+    code: "https://github.com/shivling2510/sugar-cosmetics",
+    demo: "https://in-sugar-cosmetics.netlify.app/",
+    image: `https://user-images.githubusercontent.com/54496820/163173374-59326d61-dade-43fe-b147-16fc36f96d52.PNG`
   },
   // {
   //   id: 3,
